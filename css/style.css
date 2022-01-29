@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
+/* Image */
+.image {
+    display: inline-block;
+    border: 0;
+}
+
+.image.avatar48 {
+    width: 48px;
+    height: 48px;
+}

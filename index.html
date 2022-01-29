@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Lights from Henri's Home</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/site.webmanifest">
+</head>
+<body>
+    <!-- left side menu init-->
+	<div id="header">
+		<div class="top">
+			<div id="logo">
+				<span class="image avatar48"><img src="img/house.png" alt="House" width="48" height="48"/></span>
+				<h1 id="title">Home Cruz</h1>
+				<p>Lights Automation</p>
+			</div>
+			<nav id="nav">
+				<ul>
+					<li><a href="#top" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
+					<li><a href="#AreaExterna" id="AreaExterna-link"><span class="icon solid fa-cocktail">Área Externa</span></a></li>
+					<li><a href="#Sala" id="Sala-link"><span class="icon solid fa-tv">Sala</span></a></li>
+					<li><a href="#Cozinha" id="Cozinha-link"><span class="icon solid fa-chess-king">Cozinha</span></a></li>
+					<li><a href="#Corredor" id="Corredor-link"><span class="icon solid fa-chess-king">Corredor</span></a></li>
+					<li><a href="#Kids" id="Kids-link"><span class="icon solid fa-chess-king">Quarto Crianças</span></a></li>
+					<li><a href="#Casal" id="Casal-link"><span class="icon solid fa-chess-king">Quarto Casal</span></a></li>
+				</ul>
+			</nav>
+            <!-- Bottom icons -->
+			<div class="bottom">
+                <ul class="icons">
+                    <li onClick="getStatus()"><a class="icon solid fa-sun"></a></li>
+                    <li onClick="changeLightState('SRF,1,0,34,38,147')"><a class="icon solid fa-power-off"></a></li>
+                </ul>
+            </div>
+        </div>
+	</div>
+    <!-- left side menu end-->
+</body>
+</html>
