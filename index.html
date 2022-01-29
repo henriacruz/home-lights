@@ -52,8 +52,8 @@
 							</header>
 
 							<footer>
-								<a href="#AreaExterna" class="button scrolly">Área Externa</a> | 
-								<a href="#Sala" class="button scrolly">Sala</a> | 
+								<a href="#AreaExterna" class="button">Área Externa</a> | 
+								<a href="#Sala" class="button">Sala</a> | 
 								<a href="#Cozinha" class="button scrolly">Cozinha</a> |
 								<a href="#Corredor" class="button scrolly">Corredor</a> |
 								<a href="#Kids" class="button scrolly">Kids</a> |
@@ -75,8 +75,8 @@
 								</thead>
 								<tbody>
 									<td>
-										<button onClick="changeLightState('SRF,5,0,9,L,0')" class="button buttonOn">ON</button>
-										<button onClick="changeLightState('SRF,5,0,9,D,0')" class="button buttonOff">OFF</button>
+										<button onClick="changeLightState('SRF,5,0,9,L,0')"><i class="fas fa-lightbulb"></i> ON</button>
+										<button onClick="changeLightState('SRF,5,0,9,D,0')"><i class="far fa-lightbulb"></i> OFF</button>
 									</td>
 								</tbody>
 								<thead>
@@ -86,8 +86,8 @@
 								</thead>
 								<tbody>
 									<td>
-										<button onClick="changeLightState('SRF,5,0,7,L,0')" class="button buttonOn">ON</button>
-										<button onClick="changeLightState('SRF,5,0,7,D,0')" class="button buttonOff">OFF</button>
+										<button onClick="changeLightState('SRF,5,0,7,L,0')"><i class="fas fa-lightbulb"></i> ON</button>
+										<button onClick="changeLightState('SRF,5,0,7,D,0')"><i class="far fa-lightbulb"></i> OFF</button>
 									</td>
 								</tbody>
 								<thead>
@@ -97,8 +97,8 @@
 								</thead>
 								<tbody>
 									<td>
-										<button onClick="changeLightState('SRF,5,0,19,L,0')" class="button buttonOn">ON</button>
-										<button onClick="changeLightState('SRF,5,0,19,D,0')" class="button buttonOff">OFF</button> <br/>
+										<button onClick="changeLightState('SRF,5,0,19,L,0')"><i class="fas fa-lightbulb"></i> ON</button>
+										<button onClick="changeLightState('SRF,5,0,19,D,0')"><i class="far fa-lightbulb"></i> OFF</button> <br/>
 									</td>
 								</tbody>
 								<tfoot>
@@ -106,8 +106,8 @@
 										<th>Geral</th>
 									</tr>
 									<td>
-										<button onClick="changeManyLightsState(['SRF,5,0,7,L,0', 'SRF,5,0,9,L,0', 'SRF,5,0,19,L,0'])">ÁREA EXTERNA ON</button>
-										<button onClick="changeManyLightsState(['SRF,5,0,7,D,0', 'SRF,5,0,9,D,0', 'SRF,5,0,19,D,0'])">ÁREA EXTERNA OFF</button>
+										<button onClick="changeManyLightsState(['SRF,5,0,7,L,0', 'SRF,5,0,9,L,0', 'SRF,5,0,19,L,0'])"> <i class="fas fa-lightbulb"></i> ÁREA EXTERNA ON</button>
+										<button onClick="changeManyLightsState(['SRF,5,0,7,D,0', 'SRF,5,0,9,D,0', 'SRF,5,0,19,D,0'])"><i class="far fa-lightbulb"></i> ÁREA EXTERNA OFF</button>
 									</td>
 								</tfoot>
 							</table>
@@ -131,7 +131,7 @@
 							Fita led sobre a prateleira:<br/>
 							<button onClick="changeLightState('SRF,5,0,3,L,0')" class="button buttonOn">ON</button>
 							<button onClick="changeLightState('SRF,5,0,3,D,0')" class="button buttonOff">OFF</button> <br/>
-							Intensidade:<input type="range" min="0" max="255" value="50" id="roomLedLine"> <span id="roomLedLineIntensity"></span>
+							Intensidade:<input type="range" min="0" max="255" value="50" id="roomLedLine" class="slider"> <span id="roomLedLineIntensity"></span>
 							<br/>
 							Geral:<br/>
 							<button onClick="changeManyLightsState(['SRF,5,0,16,L,0', 'SRF,5,0,15,L,0', 'SRF,5,0,3,L,0'])" class="btnplainleft icon fa-fast-backward">SALA DE JANTAR ON</button>   
@@ -198,7 +198,7 @@
 						Led em torno da sanca:<br/>
 						<button onClick="changeLightState('SRF,5,0,2,L,0')" class="btnplainleft icon fa-fast-backward">ON</button>
 						<button onClick="changeLightState('SRF,5,0,2,D,0')" class="btnplainright icon fa-fast-forward">OFF</button><br/><br/>
-						Intensidade:<input type="range" min="0" max="255" value="50" id="hallLedLine"> <span id="hallLedLineIntensity"></span>
+						Intensidade:<input type="range" min="0" max="255" value="50" id="hallLedLine" class="slider"> <span id="hallLedLineIntensity"></span>
 						<br/>
 						Geral:<br/>
 						<button onClick="changeManyLightsState(['SRF,5,0,10,L,0', 'SRF,5,0,2,L,0'])" class="btnplainleft icon fa-fast-backward">CORREDOR ON</button>
@@ -237,7 +237,7 @@
 								<td>
 									<button onClick="changeLightState('SRF,5,0,1,L,0')" class="button buttonOn">ON</button>
 									<button onClick="changeLightState('SRF,5,0,1,D,0')" class="button buttonOff">OFF</button> <br/>
-									Intensidade:<input type="range" min="0" max="255" value="50" id="kidsLedLine"> <span id="kidsLedLineIntensity"></span>
+									Intensidade:<input type="range" min="0" max="255" value="50" id="kidsLedLine" class="slider"> <span id="kidsLedLineIntensity"></span>
 								</td>
 							</tbody>
 							<tfoot>
@@ -291,7 +291,7 @@
 								<td>
 									<button onClick="changeLightState('SRF,5,0,4,L,0')" class="button buttonOn">ON</button>
 									<button onClick="changeLightState('SRF,5,0,4,D,0')" class="button buttonOff">OFF</button> <br/>
-									Intensidade:<input type="range" min="0" max="255" value="50" id="coupleLedLine"> <span id="coupleLedLineIntensity"></span>
+									Intensidade:<input type="range" min="0" max="255" value="50" id="coupleLedLine" class="slider"> <span id="coupleLedLineIntensity"></span>
 								</td>
 							</tbody>
 							<tfoot>
@@ -314,6 +314,7 @@
         <!-- End Footer -->
 </body>
     <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/lights.js"></script>
     <script src="js/ledLines.js"></script>
     <script src="js/script.js"></script>

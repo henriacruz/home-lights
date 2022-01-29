@@ -1,30 +1,30 @@
 # home-lights
-Quarto casal
-Módulo 5 - spots do quarto casal
-Módulo 4 - fita led quarto casal
-Módulo 6 - plafon central
-Módulo 14 - pendentes
+> Quarto casal
+5 - spots do quarto casal
+4 - fita led quarto casal
+6 - plafon central
+14 - pendentes
 
-Cozinha
-Módulo 17- plafón cozinha
-Módulo 8 - spots cozinha
-Módulo 11 - Pendente
+> Cozinha
+17 - plafón cozinha
+8 - spots cozinha
+11 - Pendente
 
-Quarto Kids
-Módulo 13 - plafón
-Módulo 12 - Spot
-Módulo 1 - Fita Led
+> Quarto Kids
+13 - plafón
+12 - Spot
+1 - Fita Led
 
-Corredor
-Módulo 2 - Fita led
-Módulo 10 - Spots
+> Corredor
+2 - Fita led
+10 - Spots
 
-Sala
-Módulo 15 - Spots
-Módulo 16 - Trilho
-Módulo 3 - Fita led
+> Sala
+15 - Spots
+16 - Trilho
+3 - Fita led
 
-Garagem
+> Garagem
 7 - Arandela
 9 - churrasqueira
 19 - garagem
