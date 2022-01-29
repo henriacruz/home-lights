@@ -10,7 +10,7 @@ Módulo 17- plafón cozinha
 Módulo 8 - spots cozinha
 Módulo 11 - Pendente
 
-Quarto Maria
+Quarto Kids
 Módulo 13 - plafón
 Módulo 12 - Spot
 Módulo 1 - Fita Led
