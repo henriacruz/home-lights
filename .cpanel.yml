@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home4/henric05/lights.henricruz.com.br/
+    - /bin/cp * $DEPLOYPATH
