@@ -2,8 +2,20 @@ function changeLightState(cmd){
     var cmd_ip = "192.168.15.87";
     var cmd_port = "4999";
     var message = "http://" + cmd_ip + "/cgi-bin/send.sh?port=" + cmd_port + "&cmd='" + cmd + "'";
-    document.getElementById('responseCmd').src = message;
-    console.log(message);
+
+    var noCorsHeaders = new Headers();
+	var noCorsCall = {  method: 'GET',
+					    headers: noCorsHeaders,
+					    mode: 'no-cors',
+					    cache: 'default' };
+
+    fetch(message,noCorsCall)
+	.then(function(response) {
+		document.getElementById('responseCmd').src = message;
+        console.log(message);
+	    return response;
+	});
+
 }
 
 function changeManyLightsState(cmds){
