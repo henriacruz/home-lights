@@ -2240,7 +2240,8 @@ input, select, textarea {
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				/* background-color: #f5fafa; */
+				background-color: #1f3b2f; 
 			}
 
 			#main > section.three {
