@@ -121,21 +121,21 @@
 							<header><h2>Sala</h2></header>
 							<p>Que é composta por:</p>
 							Trilho de Luminárias:<br/>
-							<button onClick="changeLightState('SRF,5,0,16,L,0')">ON</button>
-							<button onClick="changeLightState('SRF,5,0,16,D,0')">OFF</button>
+							<button onClick="changeLightState('SRF,5,0,16,L,0')"><i class="fas fa-lightbulb"></i> ON</button>
+							<button onClick="changeLightState('SRF,5,0,16,D,0')"><i class="far fa-lightbulb"></i> OFF</button>
 							<br/>
 							Spots laterais:<br/>
-							<button onClick="changeLightState('SRF,5,0,15,L,0')">ON</button>
-							<button onClick="changeLightState('SRF,5,0,15,D,0')">OFF</button>
+							<button onClick="changeLightState('SRF,5,0,15,L,0')"><i class="fas fa-lightbulb"></i> ON</button>
+							<button onClick="changeLightState('SRF,5,0,15,D,0')"><i class="far fa-lightbulb"></i> OFF</button>
 							<br/>
 							Fita led sobre a prateleira:<br/>
-							<button onClick="changeLightState('SRF,5,0,3,L,0')" class="button buttonOn">ON</button>
-							<button onClick="changeLightState('SRF,5,0,3,D,0')" class="button buttonOff">OFF</button> <br/>
+							<button onClick="changeLightState('SRF,5,0,3,L,0')"><i class="fas fa-lightbulb"></i> ON</button>
+							<button onClick="changeLightState('SRF,5,0,3,D,0')"><i class="far fa-lightbulb"></i> OFF</button> <br/>
 							Intensidade:<input type="range" min="0" max="255" value="50" id="roomLedLine" class="slider"> <span id="roomLedLineIntensity"></span>
 							<br/>
 							Geral:<br/>
-							<button onClick="changeManyLightsState(['SRF,5,0,16,L,0', 'SRF,5,0,15,L,0', 'SRF,5,0,3,L,0'])" class="btnplainleft icon fa-fast-backward">SALA DE JANTAR ON</button>   
-							<button onClick="changeManyLightsState(['SRF,5,0,16,D,0', 'SRF,5,0,15,D,0', 'SRF,5,0,3,D,0'])" class="btnplainleft icon fa-fast-backward">SALA DE JANTAR OFF</button>
+							<button onClick="changeManyLightsState(['SRF,5,0,16,L,0', 'SRF,5,0,15,L,0', 'SRF,5,0,3,L,0'])"><i class="fas fa-lightbulb"></i> SALA DE JANTAR ON</button>   
+							<button onClick="changeManyLightsState(['SRF,5,0,16,D,0', 'SRF,5,0,15,D,0', 'SRF,5,0,3,D,0'])"><i class="far fa-lightbulb"></i> SALA DE JANTAR OFF</button>
 						</div>
 					</section>
 
@@ -151,8 +151,8 @@
 								</thead>
 								<tbody>
 									<td>
-										<button onClick="changeLightState('SRF,5,0,8,L,0')" class="button buttonOn">ON</button>
-										<button onClick="changeLightState('SRF,5,0,8,D,0')" class="button buttonOff">OFF</button>
+										<button onClick="changeLightState('SRF,5,0,8,L,0')"><i class="fas fa-lightbulb"></i> ON</button>
+										<button onClick="changeLightState('SRF,5,0,8,D,0')"><i class="far fa-lightbulb"></i> OFF</button>
 									</td>
 								</tbody>
 								<thead>
@@ -160,8 +160,8 @@
 								</thead>
 								<tbody>
 									<td>
-										<button onClick="changeLightState('SRF,5,0,17,L,0')" class="button buttonOn">ON</button>
-										<button onClick="changeLightState('SRF,5,0,17,D,0')" class="button buttonOff">OFF</button>
+										<button onClick="changeLightState('SRF,5,0,17,L,0')"><i class="fas fa-lightbulb"></i> ON</button>
+										<button onClick="changeLightState('SRF,5,0,17,D,0')"><i class="far fa-lightbulb"></i> OFF</button>
 									</td>
 								</tbody>
 								<thead>
@@ -169,15 +169,15 @@
 								</thead>
 								<tbody>
 									<td>
-										<button onClick="changeLightState('SRF,5,0,11,L,0')" class="button buttonOn">ON</button>
-										<button onClick="changeLightState('SRF,5,0,11,D,0')" class="button buttonOff">OFF</button> <br/>
+										<button onClick="changeLightState('SRF,5,0,11,L,0')"><i class="fas fa-lightbulb"></i> ON</button>
+										<button onClick="changeLightState('SRF,5,0,11,D,0')"><i class="far fa-lightbulb"></i> OFF</button> <br/>
 									</td>
 								</tbody>
 								<tfoot>
 									<tr><th>Geral:</th></tr>
 									<td>
-										<button onClick="changeManyLightsState(['SRF,5,0,8,L,0', 'SRF,5,0,17,L,0', 'SRF,5,0,11,L,0'])">COZINHA ON</button>
-										<button onClick="changeManyLightsState(['SRF,5,0,8,D,0', 'SRF,5,0,17,D,0', 'SRF,5,0,11,D,0'])">COZINHA OFF</button>
+										<button onClick="changeManyLightsState(['SRF,5,0,8,L,0', 'SRF,5,0,17,L,0', 'SRF,5,0,11,L,0'])"><i class="fas fa-lightbulb"></i> COZINHA ON</button>
+										<button onClick="changeManyLightsState(['SRF,5,0,8,D,0', 'SRF,5,0,17,D,0', 'SRF,5,0,11,D,0'])"><i class="far fa-lightbulb"></i> COZINHA OFF</button>
 									</td>
 								</tfoot>
 							</table>
@@ -191,18 +191,18 @@
 
 						<p>Que é composto por:</p>
 						6 Spots no corredor:<br/>
-						<button onClick="changeLightState('SRF,5,0,10,L,0')">ON</button>
-						<button onClick="changeLightState('SRF,5,0,10,D,0')">OFF</button>
+						<button onClick="changeLightState('SRF,5,0,10,L,0')"><i class="fas fa-lightbulb"></i> ON</button>
+						<button onClick="changeLightState('SRF,5,0,10,D,0')"><i class="far fa-lightbulb"></i> OFF</button>
 						<br/>
 						<br/>
 						Led em torno da sanca:<br/>
-						<button onClick="changeLightState('SRF,5,0,2,L,0')" class="btnplainleft icon fa-fast-backward">ON</button>
-						<button onClick="changeLightState('SRF,5,0,2,D,0')" class="btnplainright icon fa-fast-forward">OFF</button><br/><br/>
+						<button onClick="changeLightState('SRF,5,0,2,L,0')"><i class="fas fa-lightbulb"></i> ON</button>
+						<button onClick="changeLightState('SRF,5,0,2,D,0')"><i class="far fa-lightbulb"></i> OFF</button><br/><br/>
 						Intensidade:<input type="range" min="0" max="255" value="50" id="hallLedLine" class="slider"> <span id="hallLedLineIntensity"></span>
 						<br/>
 						Geral:<br/>
-						<button onClick="changeManyLightsState(['SRF,5,0,10,L,0', 'SRF,5,0,2,L,0'])" class="btnplainleft icon fa-fast-backward">CORREDOR ON</button>
-						<button onClick="changeManyLightsState(['SRF,5,0,10,D,0', 'SRF,5,0,2,D,0'])" class="btnplainleft icon fa-fast-backward">CORREDOR OFF</button>
+						<button onClick="changeManyLightsState(['SRF,5,0,10,L,0', 'SRF,5,0,2,L,0'])"><i class="fas fa-lightbulb"></i> CORREDOR ON</button>
+						<button onClick="changeManyLightsState(['SRF,5,0,10,D,0', 'SRF,5,0,2,D,0'])"><i class="far fa-lightbulb"></i> CORREDOR OFF</button>
 					</div>
 				</section>
 
@@ -217,8 +217,8 @@
 							</thead>
 							<tbody>
 								<td>
-									<button onClick="changeLightState('SRF,5,0,13,L,0')" class="button buttonOn">ON</button>
-									<button onClick="changeLightState('SRF,5,0,13,D,0')" class="button buttonOff">OFF</button>
+									<button onClick="changeLightState('SRF,5,0,13,L,0')"><i class="fas fa-lightbulb"></i> ON</button>
+									<button onClick="changeLightState('SRF,5,0,13,D,0')"><i class="far fa-lightbulb"></i> OFF</button>
 								</td>
 							</tbody>
 							<thead>
@@ -226,8 +226,8 @@
 							</thead>
 							<tbody>
 								<td>
-									<button onClick="changeLightState('SRF,5,0,12,L,0')" class="button buttonOn">ON</button>
-									<button onClick="changeLightState('SRF,5,0,12,D,0')" class="button buttonOff">OFF</button>
+									<button onClick="changeLightState('SRF,5,0,12,L,0')"><i class="fas fa-lightbulb"></i> ON</button>
+									<button onClick="changeLightState('SRF,5,0,12,D,0')"><i class="far fa-lightbulb"></i> OFF</button>
 								</td>
 							</tbody>
 							<thead>
@@ -235,16 +235,16 @@
 							</thead>
 							<tbody>
 								<td>
-									<button onClick="changeLightState('SRF,5,0,1,L,0')" class="button buttonOn">ON</button>
-									<button onClick="changeLightState('SRF,5,0,1,D,0')" class="button buttonOff">OFF</button> <br/>
+									<button onClick="changeLightState('SRF,5,0,1,L,0')"><i class="fas fa-lightbulb"></i> ON</button>
+									<button onClick="changeLightState('SRF,5,0,1,D,0')"><i class="far fa-lightbulb"></i> OFF</button> <br/>
 									Intensidade:<input type="range" min="0" max="255" value="50" id="kidsLedLine" class="slider"> <span id="kidsLedLineIntensity"></span>
 								</td>
 							</tbody>
 							<tfoot>
 								<tr><th>Geral:</th></tr>
 								<td>
-									<button onClick="changeManyLightsState(['SRF,5,0,13,L,0', 'SRF,5,0,12,L,0', 'SRF,5,0,1,L,0'])">QUARTO KIDS ON</button>
-									<button onClick="changeManyLightsState(['SRF,5,0,13,D,0', 'SRF,5,0,12,D,0', 'SRF,5,0,1,D,0'])">QUARTO KIDS OFF</button>
+									<button onClick="changeManyLightsState(['SRF,5,0,13,L,0', 'SRF,5,0,12,L,0', 'SRF,5,0,1,L,0'])"><i class="fas fa-lightbulb"></i> QUARTO KIDS ON</button>
+									<button onClick="changeManyLightsState(['SRF,5,0,13,D,0', 'SRF,5,0,12,D,0', 'SRF,5,0,1,D,0'])"><i class="far fa-lightbulb"></i> QUARTO KIDS OFF</button>
 								</td>
 							</tfoot>
 						</table>
@@ -262,8 +262,8 @@
 							</thead>
 							<tbody>
 								<td>
-									<button onClick="changeLightState('SRF,5,0,6,L,0')" class="button buttonOn">ON</button>
-									<button onClick="changeLightState('SRF,5,0,6,D,0')" class="button buttonOff">OFF</button>
+									<button onClick="changeLightState('SRF,5,0,6,L,0')"><i class="fas fa-lightbulb"></i> ON</button>
+									<button onClick="changeLightState('SRF,5,0,6,D,0')"><i class="far fa-lightbulb"></i> OFF</button>
 								</td>
 							</tbody>
 							<thead>
@@ -271,8 +271,8 @@
 							</thead>
 							<tbody>
 								<td>
-									<button onClick="changeLightState('SRF,5,0,5,L,0')" class="button buttonOn">ON</button>
-									<button onClick="changeLightState('SRF,5,0,5,D,0')" class="button buttonOff">OFF</button>
+									<button onClick="changeLightState('SRF,5,0,5,L,0')"><i class="fas fa-lightbulb"></i> ON</button>
+									<button onClick="changeLightState('SRF,5,0,5,D,0')"><i class="far fa-lightbulb"></i> OFF</button>
 								</td>
 							</tbody>
 							<thead>
@@ -280,8 +280,8 @@
 							</thead>
 							<tbody>
 								<td>
-									<button onClick="changeLightState('SRF,5,0,14,L,0')" class="button buttonOn">ON</button>
-									<button onClick="changeLightState('SRF,5,0,14,D,0')" class="button buttonOff">OFF</button>
+									<button onClick="changeLightState('SRF,5,0,14,L,0')"><i class="fas fa-lightbulb"></i> ON</button>
+									<button onClick="changeLightState('SRF,5,0,14,D,0')"><i class="far fa-lightbulb"></i> OFF</button>
 								</td>
 							</tbody>
 							<thead>
@@ -289,16 +289,16 @@
 							</thead>
 							<tbody>
 								<td>
-									<button onClick="changeLightState('SRF,5,0,4,L,0')" class="button buttonOn">ON</button>
-									<button onClick="changeLightState('SRF,5,0,4,D,0')" class="button buttonOff">OFF</button> <br/>
+									<button onClick="changeLightState('SRF,5,0,4,L,0')"><i class="fas fa-lightbulb"></i> ON</button>
+									<button onClick="changeLightState('SRF,5,0,4,D,0')"><i class="far fa-lightbulb"></i> OFF</button> <br/>
 									Intensidade:<input type="range" min="0" max="255" value="50" id="coupleLedLine" class="slider"> <span id="coupleLedLineIntensity"></span>
 								</td>
 							</tbody>
 							<tfoot>
 								<tr><th>Geral:</th></tr>
 								<td>
-									<button onClick="changeManyLightsState(['SRF,5,0,5,L,0', 'SRF,5,0,6,L,0', 'SRF,5,0,14,L,0', 'SRF,5,0,4,L,0'])">QUARTO CASAL ON</button>
-									<button onClick="changeManyLightsState(['SRF,5,0,5,D,0', 'SRF,5,0,6,D,0', 'SRF,5,0,14,D,0', 'SRF,5,0,4,D,0'])">QUARTO CASAL OFF</button>
+									<button onClick="changeManyLightsState(['SRF,5,0,5,L,0', 'SRF,5,0,6,L,0', 'SRF,5,0,14,L,0', 'SRF,5,0,4,L,0'])"><i class="fas fa-lightbulb"></i> QUARTO CASAL ON</button>
+									<button onClick="changeManyLightsState(['SRF,5,0,5,D,0', 'SRF,5,0,6,D,0', 'SRF,5,0,14,D,0', 'SRF,5,0,4,D,0'])"><i class="far fa-lightbulb"></i> QUARTO CASAL OFF</button>
 								</td>
 							</tfoot>
 						</table>
@@ -309,7 +309,7 @@
             
         <!-- Footer -->
 		<div id="footer"><ul class="copyright"><li>Tecnologia Iluflex</li><li>&copy; Henri Cruz</li></ul></div>
-        <iframe id="responseCmd" src="" height="30" style="display:block" title="test"></iframe><br/>
+        <iframe id="responseCmd" src="" height="30" style="display:none" title="test"></iframe><br/>
 		<button onclick="backOnTop()" id="backOnTopBtn" class="icon solid fa-arrow-circle-up"></button> 
         <!-- End Footer -->
 </body>
