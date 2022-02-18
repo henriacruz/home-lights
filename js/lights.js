@@ -3,10 +3,12 @@ function changeLightState(cmd){
     var cmd_port = "4999";
     var message = "http://" + cmd_ip + "/cgi-bin/send.sh?port=" + cmd_port + "&cmd='" + cmd + "'";
 
-    var noCorsHeaders = new Headers();
+    //var noCorsHeaders = new Headers();
 	var noCorsCall = {  method: 'GET',
-					    headers: noCorsHeaders,
-					    mode: 'no-cors',
+                        headers: {
+                            'Access-Control-Allow-Origin':'*'
+                        },
+					    mode: 'cors',
 					    cache: 'default' };
 
     fetch(message,noCorsCall)
