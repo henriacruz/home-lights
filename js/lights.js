@@ -8,7 +8,7 @@ function changeLightState(cmd){
                         headers: {
                             'Access-Control-Allow-Origin':'*'
                         },
-					    mode: 'cors',
+					    mode: 'no-cors',
 					    cache: 'default' };
 
     fetch(message,noCorsCall)
